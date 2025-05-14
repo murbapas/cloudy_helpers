@@ -165,7 +165,7 @@ alias k="kubectl $@"
 complete -F _complete_alias k
 EOF
 
-source ~/.bashrc
-
 # install kubectx for convenience
 sudo apt install kubectx
+
+source ~/.bashrc
