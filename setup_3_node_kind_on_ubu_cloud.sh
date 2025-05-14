@@ -12,10 +12,10 @@
 # If you fulfill these requirements you can spin up a three node kind cluster
 # by executing this script on your VM like this:
 
-# curl -s <raw_url> | bash
+# curl -s https://raw.githubusercontent.com/murbapas/cloudy_helpers/refs/heads/main/setup_3_node_kind_on_ubu_cloud.sh | bash
 
-# !this is meant for lab environments!
-# !no security!
+# !!!this is meant for lab environments!!!
+# !!!no security!!!
 
 
 # prepare the system #
