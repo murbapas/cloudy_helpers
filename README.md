@@ -1,2 +1,2 @@
 # cloudy_helpers
-Stuff to help me remember
+Mostly bash scripts that help me remember how I actually did it...
