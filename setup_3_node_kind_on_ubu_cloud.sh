@@ -143,7 +143,7 @@ nodes:
 - role: worker
 EOF
 
-kind create cluster --config /tmp/kind-three-node-cluster.yaml
+~/bin/kind create cluster --config /tmp/kind-three-node-cluster.yaml
 
 # install kubectl and autocompletion #
 ######################################
@@ -152,7 +152,7 @@ kind create cluster --config /tmp/kind-three-node-cluster.yaml
 curl -Lo ~/bin/kubectl  "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
 chmod +x ~/bin/kubectl
 
-kubectl completion bash >> ~/.bash_kube_completion
+~/bin/kubectl completion bash >> ~/.bash_kube_completion
 echo "source ~/.bash_kube_completion" >> ~/.bashrc
 
 mkdir ~/.bash_completion.d
